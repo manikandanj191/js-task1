@@ -221,18 +221,162 @@ true === 1 //output = false
 
 //section 5
 
-true && false   //output = false
-true || false    //output = true
-false || false    //output = false
-!true              //output = false
-!(5 > 2)            //output = false
-5 > 3 && 10 > 5      //output = true
-5 > 3 && 10 < 5       //output = false
-5 < 3 || 10 < 5        //output = false
-5 < 3 || 10 > 5        //output = true
-(5 > 2 && 3 > 1) || (10 < 2)   //output = true
+// true && false   //output = false
+// true || false    //output = true
+// false || false    //output = false
+// !true              //output = false
+// !(5 > 2)            //output = false
+// 5 > 3 && 10 > 5      //output = true
+// 5 > 3 && 10 < 5       //output = false
+// 5 < 3 || 10 < 5        //output = false
+// 5 < 3 || 10 > 5        //output = true
+// (5 > 2 && 3 > 1) || (10 < 2)   //output = true )
+
+
+//section 6
+
+//1. If age >= 18 print "Adult" else "Minor"
+
+let age = 10
+
+age >= 18 ? console.log("adult") : console.log("minor");
+ 
+//output = minor
+
+//2. If marks >= 50 print "Pass" else "Fail"
+
+let marks = 70
+
+marks >= 50 ? console.log("pass") : console.log("fail");
+
+//output - pass
+
+//3. If number % 2 == 0 print "Even" else "Odd"
+
+let number =5
+number % 2 == 0 ? console.log("even") : console.log("odd");
+
+//output = odd
+
+//4. Nested ternary for grades
+
+let marks1= 70;
+
+let grade =
+marks1 >= 90 ? "A" :
+marks1 >= 75 ? "B" :
+marks1 >= 50 ? "C" :
+"Fail";
+
+console.log(" you got "  + grade + " grade");
+
+// output = you got c grade
+
+//5. Check number positive or negative using ternary
+
+
+let numb = 0
+
+let number1 = numb > 1 ? "positive":
+numb < 1 ? "negative":
+"zero";
+
+console.log(number1);
+
+//output = negative
+
+//SECTION 7 – String & Concatenation
+
+//Join "Hello" and "World"
+
+let hel = "hello";
+let wor = " world";
+
+console.log(hel + wor ); //helloworld
+
+//2. Print full name using +
+
+let name5 = "manikandan"
+let sec = "jothi"
+
+console.log("my full name is", name5 + sec );
+
+// 3 Print full name using template string
+
+let name6 = "manikandan"
+let sec2 = "jothi"
+console.log(`${ name6 }${ sec2 }`);
+
+
+//4. "10" + 5
+//5. 5 + "10"
+
+console.log("10" + 5); // "105"
+console.log(5 + "10"); // "510"
+
+//SECTION 8 – Implicit Type Conversion (66–70)
+
+"5" + 2 
+ console.log(typeof("5" + 2)); //string
+
+"5" - 2 
+console.log(typeof("5" - 2)); //number
+
+"5" * 2
+console.log(typeof("5" * 2)); //number
+
+true + 1
+console.log(typeof(true + 1)); // number
+
+false + "1"
+console.log(typeof(false + "1")); //string
+
+
+//SECTION 9 – Explicit Conversion (71–75)
+
+Number("123")
+console.log(typeof(Number("123"))); //number
+
+Number("abc")
+console.log(typeof(Number("abc"))); //number
+
+Number(true)
+console.log(typeof(Number(true))); //number
+
+Boolean("")
+console.log(typeof(Boolean(""))); // boolean
+
+Boolean("hello")
+console.log(typeof(Boolean("hello"))); // boolean
 
 
 
+// 1. Explain difference between == and ===
+
+//==(loosy type equal) only looking for a same values or value is equal but ===(strictly type equal) will also check the data types and values are equal.
 
 
+// 2. Explain difference between a++ and ++a
+// a++ is a post increment type 
+// value used first,then increased
+
+//and ++a is a pre increment type
+//value increased first,then used
+
+
+// 3. List all falsy values
+
+     // false
+            // 0
+            // "" empty string
+            // NaN
+                     // undefined
+            // null
+
+// 4. Explain why "5" - 2 works but "5" + 2 behaves differently
+
+//  "5" - 2 works because it act as a number and the result came but "5" + 2 will act like a concatination method because of 1 string.
+
+// 5. Explain why null == undefined is true
+
+// because loose equality == treats them as equal
