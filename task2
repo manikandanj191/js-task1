@@ -138,4 +138,101 @@ console.log(a10)
 
 //output - 20
 
+//section 3
+
+let ab= 10
+let bc = 5
+
+console.log(ab += bc)
+
+//output - 15
+
+
+aa=20
+bb=8
+
+console.log(aa-=bb)
+
+//output - 12
+
+cc=7
+cd =3
+console.log(cc*=cd)
+
+//output - 21
+
+ce=40
+cf = 5
+console.log(ce/=cf)
+
+//output - 8
+
+cg = 25
+ch = 4
+console.log(cg%=ch)
+
+//output - 1
+
+let af = 5
+af += 3
+af *= 2
+console.log(af)
+
+//output - 16
+
+let ag = 10
+ag -= 2
+ag /= 4
+console.log(ag)
+
+//output - 2
+
+let ah = 8
+ah %= 3
+console.log(ah)
+
+//output = 2
+
+let ai = 6
+ai += ai
+console.log(ai)
+
+//output = 12
+
+let aj = 2
+aj *= aj += 3
+console.log(aj)
+
+//output = 10
+
+
+// section 4
+
+5 == "5"   //output = true
+5 === "5" //output = false
+0 == false //output = true
+0 === false  //output = false
+null == undefined //output = true
+null === undefined // //output = false
+"10" > 5 //output = true
+"2" > "10" //output = false
+true == 1 //output = true
+true === 1 //output = false
+
+//section 5
+
+true && false   //output = false
+true || false    //output = true
+false || false    //output = false
+!true              //output = false
+!(5 > 2)            //output = false
+5 > 3 && 10 > 5      //output = true
+5 > 3 && 10 < 5       //output = false
+5 < 3 || 10 < 5        //output = false
+5 < 3 || 10 > 5        //output = true
+(5 > 2 && 3 > 1) || (10 < 2)   //output = true
+
+
+
+
 
