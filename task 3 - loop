@@ -1,0 +1,457 @@
+//if else
+
+    let num = 15
+    if(num>10){
+
+     console.log("number is big") //output = number is big
+    }
+
+
+    let age = 20
+    if(age>=18){
+          console.log("you are eligible to vote")  //output = you are eligible to vote
+    }
+
+let tem = 29
+if(tem>30)
+      console.log("hot")
+    else{
+          console.log(" cool")
+    }        // output = cool
+
+
+    number = 0
+    if(number >= 0){
+        console.log(" number is positive")
+    } else{
+        console.log(" number is negative") // output = number is negative
+
+    }
+
+    numb = 10
+    if(numb % 2==0 ){
+console.log(" even no")
+    } else{
+        console.log(" odd") //out = even no
+    } 
+
+    //section 2
+
+    let mark = 70
+    if(mark>90){
+         console.log(" you got grade A") ;
+
+    } 
+    else if (mark >= 70){
+         console.log(" you got grade b") ;
+
+    } 
+    else if (mark >= 50) {
+         console.log(" you got grade c") ;
+    } 
+    else if (mark<=50){
+         console.log(" you are fail") ;  
+    }   // output = you got grade b
+
+
+    let hour = 20
+    if(hour<10) {
+         console.log(" gd mrng") 
+
+    }
+    else if (hour<=15) {
+         console.log(" gd afternoon") 
+    }
+    else if (hour <= 19) {
+         console.log(" gd eve") 
+    }
+    else if (hour <=24) {
+         console.log(" gd night")  // out = gd night
+    }
+
+
+    let numb1 = 0
+
+if(numb1 > 0){
+ console.log("positive")
+}
+else if(numb1 < 0){
+ console.log("negative")
+}
+else{
+ console.log("zero")
+} // zero
+
+ let sco = 100
+
+ if (sco >=100){
+     console.log(" winner") 
+ }
+
+ else if (sco >=50){
+ console.log(" good") 
+ }
+
+ else {
+     console.log(" try again") 
+ }   // winner
+
+ let lar = 10
+ let lar1 = 15
+ let lar2 = 20
+
+ if((lar>lar1) && (lar>lar2)){
+     console.log(" large number is" , lar) 
+
+ }
+ else if((lar1>lar) && (lar1>lar2)){
+      console.log(" large number is", lar1)
+
+ }
+
+ else{
+      console.log(" large number is" , lar2) 
+ }  //large no is 20
+
+ //switch statement
+
+ let day = 1
+
+ switch (day){
+    case 1 :console.log(" today is monday"); break
+    case 2 :    console.log("today is tuesday"); break
+ case 3 :    console.log("today is wednesday"); break
+
+ } // output = today is monday
+
+ let trafficlight = "green"
+
+ switch (trafficlight) {
+ 
+    case "red": console.log("stop"); break
+
+    case "yelow" : console.log("get ready"); break
+
+    case "green" : console.log("go"); break
+ }  // output = go
+
+
+ let month = "may"
+
+ switch (month){
+    case "jan" : console.log("january"); break
+    case "frb" : console.log("february"); break
+    case "mar" : console.log("march"); break
+    case "apr" : console.log("april"); break
+    case "may" : console.log("month = may"); break
+ }
+// may
+
+
+let role = "user"
+
+switch(role) {
+
+    case "admin" : console.log("access eveything"); break
+
+    case "user" : console.log("enter password to acess"); break
+
+    case "guest" : console.log("not allow"); break
+
+    default: ("you are student");
+}  // password to access
+
+
+
+let grade = "d"
+
+switch(grade){
+    case "a" : console.log("first rank"); break
+    case "b" : console.log("second rank"); break
+case "c" : console.log("thirs rank"); break
+default : console.log("pass mark"); break
+
+// pass mark
+}
+ 
+
+//for loop
+
+//print 1- 10
+
+for (let a =1; a<=10; a++){
+    console.log(a)
+}
+
+//10 - 1
+
+for (let b = 10; b>=1; b--){
+    console.log(b)
+}
+
+// even no 1- 20
+
+for (let ab = 1; ab<=20; ab++){
+
+    if(ab%2==0)
+
+    console.log("even no is" , ab); 
+}
+
+//odd no 1-20
+
+for(let ac = 1; ac<= 20; ac++){
+    if(ac % 2 ==1){
+ 
+    console.log("odd no is" , ac); 
+}
+    }
+
+
+    // multiplication table for 5 is
+
+    for (let ad = 5; ad<=50; ad++){
+
+        if (ad % 5 ==0)
+
+    console.log("multiplication table" , ad); 
+}
+    
+
+//while loop
+
+//print 1- 5
+
+let ad = 1
+
+while (ad<=5){
+
+     console.log(ad);
+     ad++ 
+    
+}
+
+//print 5 - 1
+
+let af = 5
+while (af >=1 ){
+      console.log(af);
+      af--
+
+}
+
+//even no 1= 10
+
+let ah = 1
+while (ah<=10){
+    if (ah % 2 ==0)
+          console.log( "even no is" , ah);
+        ah++
+
+}
+
+//sum of no  1 - 10
+
+let ai = 0
+let sum =0
+
+while (ai<=10){
+     
+     sum = sum+ai
+
+    ai++
+    
+
+
+}
+
+console.log(sum);
+
+//square of 1 - 5
+
+let ib = 1;
+
+while(ib <= 5){
+    console.log(ib * ib);
+    ib++;
+}
+
+
+//do while
+
+let bc = 1
+
+do {
+    console.log(bc)
+bc++
+}
+while (bc<=5){
+
+}
+
+
+let bd = 5
+
+do{
+    console.log (bd)
+    bd--
+}
+
+while (bd>=0){
+
+}
+
+//multiplies of 3 - 30
+
+let be = 3
+
+do {
+      console.log (be)
+    be += 3
+}
+while(be<=30){
+
+}
+
+//numbers div by 4 from 1 - 20
+
+let divi = 4
+
+do {
+      console.log (divi)
+      divi += 4
+    
+
+}
+while (divi<=20);
+
+// print value until reaches 10
+
+let i = 1;
+
+do{
+    console.log(i);
+    i++;
+}
+while(i <= 10);
+
+// sec 7 = for of
+
+// 1 Create string 'javascript' and print each character
+
+let jav = "javascript"
+
+for ( let ff of jav ) {
+
+    console.log(ff);
+
+}
+
+//2 Create array ['apple','banana','orange'] and print each fruit.
+
+let obj = 
+    ["apple", "banana", "orange"]
+
+for (let all of obj){
+     console.log(all);
+}
+
+//3 Count number of characters in string using for of
+
+let stri = "character"
+count  =0
+
+for (let ss of stri ){
+    count++
+
+     
+}
+
+console.log("total character" , count);
+
+// Print only vowels from a string
+
+let str = "javascript";
+
+for (let ch of str){
+    if(ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u"){
+        console.log(ch);
+    }
+}
+
+//5 Print sum of numbers from an array [10,20,30]
+
+let sum1 = [10, 20, 30]
+summ =0
+
+for (let tot of sum1){
+
+
+summ = summ + tot
+
+     
+}
+ console.log("total no " , summ);
+
+ //SECTION 8 – For In (Object)
+
+
+// Create object student with name, age, department. Print all values.
+
+let stud = {
+    name : "mani" ,
+    age1 : "28" ,
+    dep1 : "biology" 
+}
+
+for (let det in stud){
+       console.log(stud[det]);
+}
+
+//2 Print all keys of an object using for in
+
+
+let stud3 = {
+    name : "mani" ,
+    age1 : "28" ,
+    dep1 : "biology" 
+}
+
+for (let detail in stud3){
+       console.log(detail)
+}
+
+// 3 Print key and value together.
+
+
+let stud1 = {
+    name : "mani" ,
+    age1 : "28" ,
+    dep1 : "biology" 
+}
+
+for (let detai in stud1){
+       console.log(detai + " : " +  stud[detai]);
+}
+
+//SECTION 9 – Functions
+// 1 Create function add(a,b) and return addition.
+
+function add(a5, b5){
+    return a5 + b5;
+}
+
+let result = add(5, 3);
+console.log(result);
+
+
+
+
+//2 Create function square(num) and return square of number
+
+function square(num){
+    return num * num;
+}
+
+let ans = square(4);
+console.log(ans);
